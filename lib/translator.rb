@@ -9,7 +9,7 @@ def load_library(file_path)
         dictionary[key[0].to_sym][:english] = key[1][0]
         dictionary[key[0].to_sym][:japanese] = key[1][1]
     end
-    binding.pry
+    translator
 end
 
 def get_japanese_emoticon
