@@ -13,6 +13,7 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
+  japanese_emoticon = 
   translator = load_library(file_path)
   translator.each do |entry|
     if emoticon === entry[1][:english]
