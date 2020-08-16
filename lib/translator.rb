@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, emoticon)
   end
 end
 
-def get_english_meaning
+def get_english_meaning(file_path, emoticon)
   translator = load_library(file_path)
   translator.each do |i|
     binding.pry
