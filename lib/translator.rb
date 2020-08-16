@@ -9,7 +9,6 @@ def load_library(file_path)
         dictionary[key[0]][:english] = key[1][0]
         dictionary[key[0]][:japanese] = key[1][1]
     end
-    binding.pry
     translator
 end
 
