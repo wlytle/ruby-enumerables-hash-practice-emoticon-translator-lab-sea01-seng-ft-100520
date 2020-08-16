@@ -22,8 +22,6 @@ end
 def get_english_meaning(file_path, emoticon)
   translator = load_library(file_path)
   translator.each do |entry|
-    entry.each do |i|
-      binding.pry
-    end
+    bidnign.pry
   end
 end
