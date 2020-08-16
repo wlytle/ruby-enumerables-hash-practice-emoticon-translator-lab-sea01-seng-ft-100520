@@ -24,5 +24,6 @@ def get_english_meaning(file_path, emoticon)
   translator.each do |entry|
     if emoticon === entry[0][:japanese]
       return entry[0]
+    end
   end
 end
