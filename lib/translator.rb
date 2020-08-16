@@ -22,6 +22,6 @@ end
 def get_english_meaning(file_path, emoticon)
   translator = load_library(file_path)
   translator.each do |entry|
-    bidnign.pry
+    bindign.pry
   end
 end
